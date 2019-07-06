@@ -6,7 +6,6 @@ public class Client {
 		
 		//创建代理对象
 		Proxy proxy = new Proxy(target);
-		
 		proxy.save();//调用代理对象中的方法
 	}
 }
